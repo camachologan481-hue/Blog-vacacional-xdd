@@ -1,0 +1,70 @@
+:root {
+    --bg1: #20242a;
+    --bg2: #3708b0;
+    --card: #071322;
+    --accent: #ffffff;
+    --muted: #ffffff;
+    --text: #ffffff;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 24px;
+    min-height: 100vh;
+    background: linear-gradient(135deg, var(--bg1), var(--bg2));
+    color: var(--text);
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header, nav, footer {
+    display: block;
+}
+
+h1 {
+    color: var(--text);
+    margin-bottom: 6px;
+}
+
+h3 {
+    color: var(--accent);
+}
+
+article {
+    background: rgba(255,255,255,0.03);
+    padding: 18px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(2,6,23,0.6);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 10px 0;
+    box-shadow: 0 8px 30px rgba(2,6,23,0.5);
+}
+
+p {
+    line-height: 1.6;
+    color: var(--muted);
+}
+
+aside {
+    margin-top: 14px;
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+footer p {
+    color: var(--muted);
+    font-size: 0.9rem;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>blog vacacional</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header></header>
+    <h1>Mis vacaciones</h1>
+    <p>Por Logan Camacho.</p>
+    <header>
+     <nav>
+        <a href="index.html">Inicio</a>
+        <a href="blog%20vacaciones.html">Galería</a>
+        <a href="contacto.html">Contacto</a>
+     </nav>
+
+
+     <main>
+        <section>
+           <article>
+                <h3>Mis vacaciones en la playa</h3>
+                <img style="width: 200px; display: block; margin: 10px 0;" src="aura.jpg" alt="Foto de la playa">
+                <p>Durante mis vacaciones, tuve la oportunidad de visitar una hermosa playa. El clima era perfecto, con un sol radiante y una brisa suave que hacía que el ambiente fuera muy agradable. Pasé mis días relajándome en la arena, nadando en el mar y disfrutando de la belleza natural que me rodeaba.</p>
+           </article>
+        </section>
+     </main>
+    <aside>
+        <h3>dato curioso</h3>
+        <p>La playa donde pasé mis vacaciones es conocida por tener aguas cristalinas y una gran variedad de vida marina.</p>
+    </aside>
+    <footer>
+        <p>© 2026 Blog creado por Logan Camacho.</p>
+    </footer>
+</body>
+</html>
